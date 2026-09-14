@@ -1,0 +1,12 @@
+    Process Identification: Using ps -p [PID] -f and top to inspect running processes, PIDs, and system usage.
+
+    Background Tasks: Running commands in the background using & and viewing active session tasks with jobs.
+
+    Process Termination: Stopping processes using kill [PID] (polite SIGTERM) versus kill -9 [PID] (forced SIGKILL)
+    Service Management (systemctl)
+
+    Status & Verification: Checking service state with systemctl status [service] and systemctl is-active [service].
+
+    Live State Changes: Using start, stop, and restart to alter running services immediately without affecting system boot settings.
+
+    Boot Configuration: Using enable to ensure services launch automatically when the machine powers on, and disable to turn auto-start off.
