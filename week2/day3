@@ -1,0 +1,5 @@
+chmod: learned how to secure sensitive files with 600,grant standard read access with 644, and make scripts executable safely using 755 instead of risky 777 full permissions.
+
+User & Group Ownership: explored user and group creation (adduser, groupadd, usermod) and ownership management with chown and chgrp.
+
+Real World Application: applied principle of least privilege permission to real application files(config.json).
