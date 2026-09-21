@@ -1,0 +1,15 @@
+Browser : (http://google.com) or http://localhost.
+
+DNS Lookup : The system queries DNS to map the domain name to an IP address
+
+IP Address : The browser gets the target destination IP address.
+
+TCP Connection : A reliable connection is established with the server (via a 3-way handshake).
+
+Port 80/443 : Traffic reaches the target port (80 for HTTP or 443 for HTTPS).
+
+Web Server : A process like Nginx handles the request
+
+HTTP Response : The server returns status codes (200 OK), headers, and the response body.
+
+thats it for today , that's the request work flow.
