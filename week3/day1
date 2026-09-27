@@ -1,0 +1,24 @@
+    Python 3 installation (/usr/bin/python3) and package tools (pip3, venv).
+
+    Learned why cloud engineers avoid sudo pip and use virtual environments to protect Linux system libraries.why?
+
+    Breaking OS Utilities: Linux system management tools (like apt, firewall controllers, or cloud configuration scripts) rely on specific Python packages bundled with the operating system. Using sudo pip can overwrite or corrupt these critical files and break core system operations.
+
+    Dependency Conflicts: A global Python setup can only hold one version of a package at a time. If Script A needs boto3 v1.20 and Script B needs boto3 v1.35, installing one globally breaks the other.
+
+    Security Risks: Running pip with sudo executes setup code from external packages with full root control over the entire system.
+
+
+
+    Worked with strings (str), integers (int), and booleans (bool).
+
+    Used input() to receive user data and wrapped it with int() / float() to convert raw text into numbers.
+
+
+    Modulo (%): Checked for even server IDs using server_id % 2 == 0.
+
+    Multiplication (*): Converted storage from GB to MB using gb * 1024.
+
+    Time Conversion: Calculated uptime in hours using days * 24.
+
+    Division (/): Calculated disk usage percentage using (used_gb / total_gb) * 100.
